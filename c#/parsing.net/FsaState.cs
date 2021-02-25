@@ -1,6 +1,6 @@
 #region copyright
 //......................................................................................
-// This is a part of UI Soft Library. Copyright © 1989-2006 UI Soft Inc.               .
+// This is a part of UI Soft Library.  1989-2006 UI Soft Inc.               .
 //......................................................................................
 // THIS CODE MAY BE USED, COPIED, STORED, OR DISTRIBUTED ONLY IN ACCORDANCE WITH       .
 // A WRITTEN LICENSE AGREEMENT AND WITH THE INCLUSION OF THIS COPYRIGHT NOTICE.        .
