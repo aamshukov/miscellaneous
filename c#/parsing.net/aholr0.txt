@@ -1,0 +1,69 @@
+State[0]
+        0  E' -> . E, null
+        1  E -> . E + T, null
+        2  E -> . T, null
+        3  T -> . T * F, null
+        4  T -> . F, null
+        5  F -> . ( E ), null
+        6  F -> . a, null
+        1 : '('   2 : 'a'   3 : F   4 : T   5 : E
+
+State[1]
+        0  F -> ( . E ), null
+        1  E -> . E + T, null
+        2  E -> . T, null
+        3  T -> . T * F, null
+        4  T -> . F, null
+        5  F -> . ( E ), null
+        6  F -> . a, null
+        1 : '('   2 : 'a'   3 : F   4 : T   6 : E
+
+State[2]
+        0  F -> a ., null
+
+
+State[3]
+        0  T -> F ., null
+
+
+State[4]
+        0  E -> T ., null
+        1  T -> T . * F, null
+        7 : '*'
+
+State[5]
+        0  E' -> E ., null
+        1  E -> E . + T, null
+        8 : '+'
+
+State[6]
+        0  F -> ( E . ), null
+        1  E -> E . + T, null
+        9 : ')'   8 : '+'
+
+State[7]
+        0  T -> T * . F, null
+        1  F -> . ( E ), null
+        2  F -> . a, null
+        1 : '('   2 : 'a'   10 : F
+
+State[8]
+        0  E -> E + . T, null
+        1  T -> . T * F, null
+        2  T -> . F, null
+        3  F -> . ( E ), null
+        4  F -> . a, null
+        1 : '('   2 : 'a'   3 : F   11 : T
+
+State[9]
+        0  F -> ( E ) ., null
+
+
+State[10]
+        0  T -> T * F ., null
+
+
+State[11]
+        0  E -> E + T ., null
+        1  T -> T . * F, null
+        7 : '*'
