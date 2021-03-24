@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////
 //......................................................................................
 //  This is a part of UI Library.                                                      .
-//  1989-2003 Arthur Amshukov                                              .
+//  1998-2003 Arthur Amshukov                                              .
 //......................................................................................
 //  THIS CODE AND INFORMATION IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND         .
 //  DO NOT REMOVE MY NAME AND THIS NOTICE FROM THE SOURCE                              .
